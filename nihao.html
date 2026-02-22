@@ -1,25 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git Test 页面练习</title>
+    <style>
+        :root {
+            --bg-start: #f0f9ff;
+            --bg-end: #dbeafe;
+            --card-bg: #ffffff;
+            --text: #1f2937;
+            --accent: #0369a1;
+            --accent-soft: #e0f2fe;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            color: var(--text);
+        }
+
+        .card {
+            width: min(520px, 100%);
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 14px 32px rgba(2, 132, 199, 0.18);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            color: var(--accent);
+        }
+
+        h2 {
+            margin: 20px 0 10px;
+            color: var(--accent);
+        }
+
+        p {
+            margin: 0;
+            padding: 10px 12px;
+            border-radius: 8px;
+            background-color: var(--accent-soft);
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <h1>这是一个测试</h1>
-    <p>增加css样式</p>
-    <h2>美好的一天</h2>
-    <p>今天天气不错</p>
+    <main class="card">
+        <h1>这是一个测试</h1>
+        <p>增加 CSS 样式。</p>
+        <h2>美好的一天</h2>
+        <p>今天天气不错。</p>
+    </main>
 </body>
-
-<style>
-    p{
-        color: aliceblue;
-        width: 10px;
-        height: auto;
-        background-color: aqua;
-    }
-
-</style>
-
 </html>
