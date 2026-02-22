@@ -1,0 +1,2 @@
+Conflict Demo
+Line 2: original baseline
