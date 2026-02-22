@@ -1,0 +1,2 @@
+Conflict Demo
+Line 2: different update from branch B
