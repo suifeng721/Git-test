@@ -1,2 +1,2 @@
 Conflict Demo
-Line 2: different update from branch B
+Line 2: merged result from A and B
